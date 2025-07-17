@@ -1,0 +1,19 @@
+table, th, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+td, th{
+    width:120px;
+}
+
+th{
+    background-color: orange;
+}
+.celeste{
+  background-color: rgb(69, 69, 247);
+}
+tr{
+    background-color: skyblue;
+}

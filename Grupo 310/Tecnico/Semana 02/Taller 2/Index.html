@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="formularioDeRegistro">
+        <h1>Formulario de registro</h1>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="lastname">Apellido:</label>
+        <input type="text" id="lastname" name="lastname">
+
+        <p>Género:
+            <input type="radio" name="hm" value="h" required> Hombre
+            <input type="radio" name="hm" value="f" required> Mujer
+            <input type="radio" name="hm" value="o" required> Otro
+        </p>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+
+        <input type="checkbox" name="casilla"> Deseo recibir información sobre novedades y ofertas
+        <br><br>
+        <input type="checkbox" name="casilla"> Declaro haber leído y aceptar las condiciones generales del programa y la
+        normativa sobre protección de datos
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
